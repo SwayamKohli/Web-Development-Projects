@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #007bff !important;
+    /* Customize link color */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important;
+    /* Customize hover color */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    /* Customize dropdown background */
+}
