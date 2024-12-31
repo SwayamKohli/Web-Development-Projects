@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0077B5;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.pricing-plan {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px;
+    /* Flex-grow, flex-shrink, flex-basis */
+    text-align: center;
+}
+
+.price {
+    font-size: 2em;
+    color: #0077B5;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #86FFE7;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.featured {
+    border: 2px solid #0077B5;
+    /* Highlight the featured plan */
+    background: #e0f7fa;
+    /* Light background for featured plan */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0077B5;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
